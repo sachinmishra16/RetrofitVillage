@@ -2,7 +2,8 @@ package com.mishra.sachin.retrofit_1.Model;
 
 import java.io.Serializable;
 
-public class FamilyHeadReg implements Serializable {
+public class FamilyHeadReg implements Serializable
+{
     int id, family_id, village_id, district_id, block_id, state_id, user_id, role_id, vc_id, camp_id;
     int no_child_upto_5yrs,no_immunization_upto_5yrs,no_child_register_awc_upto_5yrs;
     String head_name,house_no,aadhar_no,contact_no_self, contact_no_others,medical_insurance,insurance_image,

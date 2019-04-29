@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             {
                 ArrayList<Village> villageArrayList= villagecall.execute().body();
 
+
                 for(Village village:villageArrayList)
                 {
                     data=data+"\t"+ "Village Name : "+village.getVillage_name()+"\n"+"\n";
