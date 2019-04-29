@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         protected Boolean doInBackground(Void... voids)
         {
 
+            //UI related things like Textview, Toast etc not used in doinBackground() method
+
             Call<ArrayList<Block>> blockcall=apiService.getBlock("block");
             Call<ArrayList<Treatment>> treatmentcall=apiService.getTreatments("treatment");
             Call<ArrayList<Village>> villagecall=apiService.getVillageForCamp("village");
